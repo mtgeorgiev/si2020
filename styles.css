@@ -1,0 +1,32 @@
+
+#test1.class4 .second .sometext {
+    color: red;
+    
+    font-size: 30pt;
+}
+
+#test1.mydiv.otherclass .sometext {
+    color: #f0d2d2;
+}
+
+input[type="text"]+input[type="submit"] {
+    border: solid 2px red;
+}
+
+li:nth-child(2n) {
+    background-color: green;
+}
+
+li:hover {
+    background-color: blue;
+}
+
+input:focus {
+    border: solid 5px red;
+}  
+
+.mydiv {
+    width: 30%;
+    display: inline-block;
+}
+

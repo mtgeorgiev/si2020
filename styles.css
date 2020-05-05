@@ -22,11 +22,18 @@ li:hover {
 }
 
 input:focus {
+
     border: solid 5px red;
-}  
+}
 
 .mydiv {
     width: 30%;
     display: inline-block;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: red;
+    }
 }
 

@@ -1,0 +1,13 @@
+#container {
+    width: 300px;
+    margin: 10px auto;
+    background-color: aliceblue;
+    border: solid 1px #8989bda8;
+    border-radius: 5px;
+    box-shadow: #c9c9e2 2px 1px 10px;
+}
+
+#container input {
+    margin: 7px;
+    width: 90%;
+}

@@ -4,6 +4,7 @@
         <title>Заглавна страница</title>
         <script src="index.js" defer></script>
         <link href="styles.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width">
     </head>
     <body>
     <div id="parent">
@@ -54,6 +55,38 @@
             <li>3</li>
             <li>4</li>
         </ul>
+        
+        <style>
+        .flex-container {
+          display: flex;
+          flex-wrap: nowrap;
+          background-color: DodgerBlue;
+        }
+
+        .flex-container > div {
+          background-color: #f1f1f1;
+          width: 100px;
+          margin: 10px;
+          text-align: center;
+          line-height: 75px;
+          font-size: 30px;
+        }
+        </style>
+        </head>
+        <body>
+        <h1>Flexible Boxes</h1>
+
+        <div class="flex-container">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>  
+          <div>4</div>
+          <div>5</div>
+          <div>6</div>  
+          <div>7</div>
+          <div>8</div>
+          <div>9</div>
+        </div>
         
         <form id="form1">
             <input type="text" name="title" placeholder="Въведете заглавие" />

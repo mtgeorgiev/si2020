@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Влизане в системата</title>
+        <script src="./script/login.js" defer></script>
+        <link href="./style/login.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="container">
+            <div id="login" class="session-button">
+                <form id="loginForm">
+                    <input type="text" name="username" placeholder="Потребителско име" />
+                    <input type="password" name="password" placeholder="Парола" />
+                    <input type="submit" value="Влез" />
+                </form>
+            </div>
+            <div>
+                <a id="logout" class="session-button">Излез</a>
+            </div>
+            <p id="hello-message"></p>
+        </div>
+    </body>
+</html>

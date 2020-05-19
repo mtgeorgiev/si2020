@@ -1,3 +1,7 @@
+#container {
+   /* background-image: url('../img/loader.gif');*/
+}
+
 .session-button {
     display: none;
 }

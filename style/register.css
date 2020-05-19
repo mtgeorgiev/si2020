@@ -1,4 +1,5 @@
 #container {
+    padding: 10px;
     width: 300px;
     margin: 10px auto;
     background-color: aliceblue;
@@ -8,6 +9,18 @@
 }
 
 #container input {
-    margin: 7px;
-    width: 90%;
+    margin: 7px 0;
+    width: 100%;
+}
+
+#container .loginButton {
+    margin: 10px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
 }
